@@ -1,0 +1,37 @@
+.form-box{
+    width: 500px;
+    height: 600px;
+    // border: 2px solid black;
+    margin: 10px 350px;
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: rgb(227, 240, 240);
+        // align-items: center;
+        h1{
+            margin: 30px;
+            margin-bottom: 50px;
+            text-align: center;
+            letter-spacing: 10px;
+        }
+        .MuiInputBase-root{
+            margin-bottom: 40px;
+        }
+        input{
+            width: 100%;
+            font-size: 20px;
+        }
+        button{
+            background-color: rgb(29, 178, 29);
+            color: white;
+            font-size: 25px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            margin: 30px;
+        }
+
+    }
+}
